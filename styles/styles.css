@@ -1,0 +1,148 @@
+/* Configurações da tabela
+   Bordas, Fonte, etc */
+.tabela {
+    font-family: Arial;
+    margin: auto;
+    border-collapse: collapse;
+    border-top: 1px solid #DDDDDD; 
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+}
+/* Borda entre as colunas e espaçamento 
+das celulas na tabela */
+td,th{
+    border-bottom: 1px solid #DDDDDD;
+    width: 0.9cm;
+    height: 0.6cm;
+}
+
+/* Tamanho da fonte, alinhamento e negrito 
+das posiçoes */
+.azul-c, .azul-m, .cinza, .laranja, .vermelho {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cor dos números das posiçoes */
+.azul-m {
+    color:#003366;
+}
+
+.azul-c {
+    color: #1398BE;
+}
+
+.laranja{
+    color: #DE9800;
+}
+
+.cinza{
+    color: #CCCCCC;
+}
+
+.vermelho {
+    color: #C91B04;
+}
+
+/*Tamanho da fonte do titulo, cor, alinhamento e negrito */
+.titulo {
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+}
+
+/* Tamanho da fonte, cor, alinhamento e a fonte negrito
+ dos nomes dos times */
+.times{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    width: 4.5cm;
+}
+
+/* Tamanho da fonte, cor, alinhamento e a fonte negrito
+nos pontos dos times */
+.pontos{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cor de fundo das células (P, V, D, GC, %) da tabela */
+.fundo-cor{
+    background-color: #F7F7F7;
+}
+
+/* Colorir os quadrados da legenda */
+.leg-azul-m{
+    background-color: #003366;
+    width: 0.27cm;
+    height: 0.0cm;
+}
+
+.leg-azul-c{
+    background-color: #1398BE;
+    width: 0.27cm;
+    height: 0cm;
+}
+
+.leg-laranja{
+    background-color: #DE9800;
+    width: 0.27cm;
+    height: 0cm;
+}
+.leg-vermelho{
+    background-color: #C91B04;
+    width: 0.27cm;
+    height: 0cm;
+}
+
+/* Margin lateral esquerda no inicio da legenda */
+.legenda{
+    margin-left: 0.2cm;  
+}
+
+/* Configurações das descriçoes da legendas 
+(“Taça Libertadores”, “Pré-Libertadores”, etc.) */
+.leg-desc{
+    padding-right: 0.2cm;
+    font-size: 10px;
+    color: #8F8F8F;
+    white-space: nowrap;
+    height: 0cm;
+    text-align: left;    
+    border-block:initial;
+}
+
+/* Configurações das siglas da legendas */
+.sigla-desc{
+    width: auto;
+    font-size: 10px;
+    color: #555555;
+    height: 0cm;
+    text-align: left;  
+    font-weight: bold;  
+}
+
+/* Configurações das descriçoes das siglas nas legendas */
+.desc-sigla{
+    width: auto;
+    padding: 0%;
+    font-size: 10px;
+    color: #555555;
+    height: 0cm;
+    text-align: left;    
+}
+
+/* Bordas com destaque */
+.borda{
+    border-bottom: 2px solid #CCCCCC;  
+}
+
+
